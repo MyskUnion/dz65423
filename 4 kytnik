@@ -1,0 +1,47 @@
+
+import java.io.InputStream;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author Пекарня
+ */
+public class NewClass1 {
+
+    private static long y;
+
+    /**
+     *
+     * @param args
+     */
+    public static void main (String[] args) @SuppressWarnings("empty-statement")
+    public static void main(String[] args, long y) {
+        
+        // int x = 100500;
+        // long y = 4543658768979089L;
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите значение x");
+        long x = sc.nextLong();
+        System.out.println("Введите значение y");
+        
+        System.out.println "P="((x+y)*2)
+        System.out.println "S="(x*y)
+    }
+
+    private static class Scanner {
+
+        public Scanner() {
+        }
+
+        private Scanner(InputStream in) {
+            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        }
+    }
+    
+}
